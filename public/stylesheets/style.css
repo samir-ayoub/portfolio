@@ -1,8 +1,74 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.menu {
+	line-height: 75px;
+	background-color: #EEEEEE;
 }
 
-a {
-  color: #00B7FF;
+.myname {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+.options {
+	float:right;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400px;
+	font-size: 10px;
+	margin-left: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 260%;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: .5em 0;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 130%;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 16px;
+}
+
+.line {
+	border-top: 1px solid #000000;
+	margin-top: 50px;
+	clear: both;
+}
+.rows {
+	padding: 6% 0;
+}
+
+.logos, .education, .skills {
+	float:left;
+	width: 33%;
+	padding-left: 4%;
+}
+
+.logos img {
+	max-width: 140px;
+}
+
+
+
+
+
+
+
+
+
+
