@@ -1,6 +1,6 @@
 .menu {
 	line-height: 75px;
-	background-color: #EEEEEE;
+	background-color: #fff;
 }
 
 .myname {
@@ -15,12 +15,16 @@
 .options {
 	float:right;
 	font-family: "Open Sans", sans-serif;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 10px;
 	margin-left: 30px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-  vertical-align: middle;
+  	vertical-align: middle;
+}
+
+.about {
+	margin-top: 4em;
 }
 
 h1 {
@@ -28,25 +32,28 @@ h1 {
 	font-size: 260%;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin: .5em 0;
+	padding: 7px 0;
 }
 
 h2 {
 	font-family: "Open Sans", sans-serif;
 	font-size: 130%;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 5%;
+	font-weight: 400;
+	margin: 12px 0;
 }
 
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 140%;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
 p {
 	font-family: "Open Sans", sans-serif;
 	margin-bottom: 16px;
 }
 
-.about{
-
-}
 
 .more{
 	margin: 30px 0 0 0;
@@ -66,12 +73,52 @@ p {
 	max-width: 140px;
 }
 
+footer {
+	margin-top: 12em;
+	background-color: #000000;
+	color: #fff;
+	padding: 100px 0;
 
+}
 
+footer p {
+	margin-bottom: 0px;
+}
 
+.bg1{
+	background: url("http://lorempixel.com/output/people-q-c-1107-736-3.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:52em;
+	 width: 100%;
+	 border: 1px solid #fff;
+	 margin-bottom: 6em;
+	 
+}
 
+.page-title {
+	position:absolute;
+	top:120px;
+	left:80px;
+	background-color: #fff;
+	padding: .8em 1.5em;
+}
 
+.page-title h1 {
+	font-size: 120%;
+	letter-spacing: 3px;
+}
 
+.magazine {
+	position:absolute;
+	top:190px;
+	left:80px;
+	background-color: #fff;
+	padding: .3em 1.2em;
+}
 
-
+.features {
+	margin: 0 auto;
+	width: 50%;
+}
 

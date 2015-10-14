@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css"/>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Slider/pgwslideshow.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/slider/pgwslideshow.min.js"></script>
+  </head>
+  <body>
+    <%- include("../comum/header") %>
+
+    <section class="row">
+      <div class="bg1"></div>
+      <div class="container">
+        <div class="page-title">
+          <h1>NewContent</h1>
+        </div>
+        <div class="magazine">
+          <h2>Revistas <em>Wine</em> e <em>WBeer</em></h2>
+        </div>
+      </div>
+    </section>
+
+      <section class="container">
+        <div class="wine">
+          <h3>Wine</h3>
+          <p>Diretor de arte das revistas Wine e WBeer. </p>
+          <p>Responsável pela mudança de projeto gráfico e editorial da revista Wine, o maior e-commerce de vinhos da América Latina. Desenvolvi também o projeto gráfico e editorial da revista WBeer, voltada para o mercado de cervejas. </p>
+          <p>O projeto ainda contou com confecção de bolachas de cerveja, pôsteres e desenvolvimento de elementos visuais para e-commerce e redes sociais.</p>
+          <h3>Material</h3>
+
+          <ul class="pgwSlideshow">
+            <li><img src="/images/wbeer/beerhunter.png" alt="Wbeer" <!-- data-description="Seção Beer Hunter, Ilustração Débora Serralheiro" -->></li>
+            <li><img src="/images/wbeer/cervadomesvale.png" alt="Cerveja do mês"></li>
+            <li><img src="/images/wbeer/heitor.png" alt="Cerveja do mês"></li>
+            <li><img src="/images/wbeer/quebec.png" alt="Cerveja do mês"></li>
+            <li><img src="/images/wbeer/receita.png" alt="Cerveja do mês"></li>
+            <li><img src="/images/wbeer/receita2.png" alt="Cerveja do mês"></li>
+          </ul>
+        </div>
+      </section>
+
+
+      
+
+
+    <%- include("../comum/footer") %>
+
+    <script src="/slider/init.js"></script>
+
+  </body>
+</html>
