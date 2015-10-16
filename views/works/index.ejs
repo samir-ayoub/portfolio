@@ -12,17 +12,16 @@
     <script src="/slider/pgwslideshow.min.js"></script>
   </head>
   <body>
-    <%- include("../comum/header") %>
+
+    <%- include("../comum/header.ejs",{ tipo:"works"}) %>
 
     <section class="row">
       <div class="bg1"></div>
-      <div class="container">
-        <div class="page-title">
-          <h1>NewContent</h1>
-        </div>
-        <div class="magazine">
-          <h2>Revistas <em>Wine</em> e <em>WBeer</em></h2>
-        </div>
+      <div class="page-title">
+        <h1>NewContent</h1>
+      </div>
+      <div class="magazine">
+        <h2 id="mag"> Revistas <em>Wine</em> e <em>WBeer</em></h2>
       </div>
     </section>
 
@@ -32,21 +31,76 @@
           <p>Diretor de arte das revistas Wine e WBeer. </p>
           <p>Responsável pela mudança de projeto gráfico e editorial da revista Wine, o maior e-commerce de vinhos da América Latina. Desenvolvi também o projeto gráfico e editorial da revista WBeer, voltada para o mercado de cervejas. </p>
           <p>O projeto ainda contou com confecção de bolachas de cerveja, pôsteres e desenvolvimento de elementos visuais para e-commerce e redes sociais.</p>
-          <h3>Material</h3>
+          <div class="pics">
+            <h3>Material WBeer</h3>
+            <ul class="pgwSlideshow">
+              <li><img src="/images/wbeer/ultima.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wbeer/mundowb.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wbeer/mundowb2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wbeer/assinante.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/assinante2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragostoabre.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragosto1.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragosto2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragosto3.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragosto4.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/tiragosto5.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/cervadomes2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/receita1.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/receita2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/perfil1.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/perfil2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/perfil3.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/quebec1.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/quebec2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/quebec3.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/coluna.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/beerhunter.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/beerhunter2.jpg" alt="Cerveja do mês"></li>
+              <li><img src="/images/wbeer/saideira.jpg" alt="Cerveja do mês"></li>
+            </ul>
+          </div>
 
-          <ul class="pgwSlideshow">
-            <li><img src="/images/wbeer/beerhunter.png" alt="Wbeer" <!-- data-description="Seção Beer Hunter, Ilustração Débora Serralheiro" -->></li>
-            <li><img src="/images/wbeer/tiragostoabre.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/tiragosto1.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/receita1.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/receita2.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/perfil1.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/perfil2.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/cervadomes.png" alt="Cerveja do mês"></li>
-            <li><img src="/images/wbeer/saideira.png" alt="Cerveja do mês"></li>
-          </ul>
+          <div class="pics">
+            <h3>Material Wine</h3>
+            <ul class="pgwSlideshow">
+              <li><img src="/images/wine/capa.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/winebox.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/winebox1.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/inbox.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/foradacaixa1.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/foradacaixa2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/foradacaixa3.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>              
+              <li><img src="/images/wine/cozinhando.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/receita2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/receita3.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/confraria1.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/confraria2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/beerhunter.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/italia.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/viagem2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/clube2.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/clube3.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+              <li><img src="/images/wine/ultima.jpg" alt="Wbeer" data-description="Seção Beer Hunter, Ilustração Débora Serralheiro"></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+          </div>
         </div>
+
       </section>
+
 
 
       

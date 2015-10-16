@@ -1,22 +1,22 @@
 <header>
-	<nav class="menu">
-		<div class= "container">
-			<ul>
-				<li>
-					<a href="/"><span class="myname"> Samir Ayoub </span></a>
-				</li>
-				<li>
-					<a href="/contact"><span class="options">Contato</span></a>
-				</li>
-				<li>
-					<a href="/about"><span class="options">Sobre</span></a>
-				</li>				
-				<li>
-					<a href="works"><span class="options">Trabalhos</span></a>
-				</li>
+  <nav class="menu">
+    <div class= "container">
+      <ul>
+        <li class="myname">
+          <a href="/"> Samir Ayoub </a>
+        </li>
+        <li<% if(tipo=="contact"){ %> class="active" <% } %>>
+          <a href="/contact"> Contato </a>
+        </li>
+        <li<% if(tipo=="about"){ %> class="active" <% } %>>
+          <a href="/about"> Sobre </a>
+        </li>       
+        <li<% if(tipo=="works"){ %> class="active" <% } %>>
+          <a href="works"> Trabalhos </a>
+        </li>
 
 
-			</ul>
-		</div>
-	</nav>
+      </ul>
+    </div>
+  </nav>
 </header>

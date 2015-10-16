@@ -3,16 +3,7 @@
 	background-color: #fff;
 }
 
-.myname {
-	font-size: 16px;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 800;
-    float: left;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.options {
+.container ul li {
 	float:right;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
@@ -23,13 +14,23 @@
   	vertical-align: middle;
 }
 
+.container ul .myname {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
 .about {
 	margin-top: 4em;
 }
 
 h1 {
 	font-family: "Open Sans", sans-serif;
-	font-size: 260%;
+	font-size: 42px;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 7px 0;
@@ -37,25 +38,43 @@ h1 {
 
 h2 {
 	font-family: "Open Sans", sans-serif;
-	font-size: 130%;
-	font-weight: 400;
+	font-size: 22px;
+	font-weight: 700;
 	margin: 12px 0;
+	text-transform: uppercase;
+}
+
+#mag {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	margin: 12px 0;
+	text-transform: none;
+}
+
+#mag em {
+	font-style: italic;
 }
 
 h3 {
 	font-family: "Open Sans", sans-serif;
-	font-size: 140%;
+	font-size: 25px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
+
 p {
 	font-family: "Open Sans", sans-serif;
 	margin-bottom: 16px;
+	font-size: 15px;
 }
 
+a {
+	color: #000;
+}
 
-.more{
+.more {
 	margin: 30px 0 0 0;
 	float: left;
 	padding:30px 0;
@@ -63,14 +82,25 @@ p {
 	border-bottom: 1px solid black;
 }
 
-.logos, .education, .skills {
+#logos, .education, .skills {
 	float:left;
 	width: 33%;
 	padding-left: 4%;
 }
 
-.logos img {
-	max-width: 140px;
+#logos {
+	position: relative;
+}
+
+#logos img {
+	max-width: 200px;
+	background-color: #fff;
+	position:absolute;
+	z-index:1
+}
+
+#logos img.active {
+	z-index:3
 }
 
 footer {
@@ -86,7 +116,7 @@ footer p {
 }
 
 .bg1{
-	background: url("http://lorempixel.com/output/people-q-c-1107-736-3.jpg")
+	background: url("http://lorempixel.com/output/city-q-c-1598-1279-7.jpg")
 	 no-repeat center center;
 	 background-size: cover;
 	 height:52em;
@@ -101,17 +131,17 @@ footer p {
 	top:120px;
 	left:80px;
 	background-color: #fff;
-	padding: .8em 1.5em;
+	padding: 2px 10px;
 }
 
 .page-title h1 {
-	font-size: 120%;
+	font-size: 25px;
 	letter-spacing: 3px;
 }
 
 .magazine {
 	position:absolute;
-	top:190px;
+	top:210px;
 	left:80px;
 	background-color: #fff;
 	padding: .3em 1.2em;
@@ -122,3 +152,6 @@ footer p {
 	width: 50%;
 }
 
+.pics {
+	margin-top: 30px;
+}

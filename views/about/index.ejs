@@ -7,9 +7,13 @@
 		<link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="/javascripts/scripts.js"></script>
+
 	</head>
 	<body>
-		<%- include("../comum/header") %>
+		<%- include("../comum/header.ejs",{ tipo:"about"}) %>
+
 
 		<div class="container">
 
@@ -22,15 +26,20 @@
 				</div>
 
 				<div class="row more">
-					<div class="logos">
-						<img src="/images/logo_new_content.png">
+					<div id="logos">
+						<img class="active" src="/images/newconts.png" alt="Logo Newcontent">
+						<img src="/images/globo.png" alt="Logo Editora Globo">
+						<img src="/images/trip.jpg" alt="Logo Editora Trip">
+						<img src="/images/carta.jpg" alt="Logo Carta Editorial">
 					</div>
+
 					<div class="education">
-						<h3> Educação </h3>
+						<h2> Educação </h2>
 						<p>Formado em Pubicidade e Propaganda pela Faculdade de Comunicação Social Cásper Líbero</p>
 					</div>
+
 					<div class="skills">
-						<h3> Competências </h3>
+						<h2> Competências </h2>
 						<p> <u>Editorial:</u> Photoshop, InDesign, Illustrator, Digital Publishing Suite.</p>
 						<p> <u>Web:</u> HTML5, CSS3, MySQL, Javascript, Ajax, NodeJs, Ruby on Rails.</p>
 					</div>
