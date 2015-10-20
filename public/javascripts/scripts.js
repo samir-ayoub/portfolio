@@ -1,13 +1,10 @@
-function logoImages(){
-      var $active = $('#logos .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#logos img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
+function trocaLogo(){
+	var num = Math.floor((Math.random() * $("#logos ul li").size() + 1));
+	$("#logos ul li.active").animate({ "opacity": "0"}, 1500).removeClass("active");
+	$("#logos ul li:nth-child("+num+")").animate({ "opacity": "1"}, 1500).addClass("active");
+}
 
 $(document).ready(function(){
-setInterval('logoImages()', 3000);
-})
+	trocaLogo();
+	setInterval('trocaLogo()', 3000);
+});
