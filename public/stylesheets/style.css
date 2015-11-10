@@ -138,7 +138,15 @@ footer p {
 	 width: 100%;
 	 border: 1px solid #fff;
 	 margin-bottom: 6em;
-	 
+}
+
+.bg2{
+	background: url("/images/abres/tampqno.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:52em;
+	 width: 100%;
+	 margin: 6em 0;
 }
 
 .page-title {
