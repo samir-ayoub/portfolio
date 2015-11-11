@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Portfolio</title>
-   		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
-		<link rel="stylesheet" type="text/css" href="stylesheets/reset.css"/>
-		<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
-		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		<%- include("shared/header.ejs") %>
+  <head>
+    <title>Samir Ayoub</title>
+      <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css"/>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="/javascripts/scripts.js"></script>
 
-		<h1>Portfolio</h1>
+  </head>
+  <body>
+    <%- include("shared/header.ejs") %>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	</body>
+      <section class="row">
+        <div class="image_background2"></div>
+        <div class="page-title">
+          <h1>Samir Ayoub</h1>
+        </div>
+      </section>
+    
+    <div class="container">
+
+      <section class="about">
+
+        <div class="row">
+          <h1>Sou diretor de arte e designer de conteúdo com ampla experiência na construcão, desenvolvimento e mudanças de projetos em mídias impressas e digitais.</h1> 
+          <p>Trabalhei em grandes empresas editoriais e de branded content, o que me garantiu ótima bagagem técnica e criativa. Tive a oportunidade de trabalhar com grandes nomes da publicidade e fotografia. Possuo também gabarito em planejamento e implementação de conteúdo customizado para marcas.</p>
+          <p>Acredito que um projeto eficaz e atraente são peças fundamentais para envolver o público e trazer retorno financeiro para a empresa. Portanto, uma sólida base em conceitos criativos, pesquisa e planejamento meticuloso são bases para criação de um trabalho excepcional.</p>
+        </div>
+
+        <div class="row more">
+          <div id="logos">
+            <ul>
+              <li><img src="/images/newconts.png" alt="Logo Newcontent"></li>
+              <li><img src="/images/globo.png" alt="Logo Editora Globo"></li>
+              <li><img src="/images/carta.jpg" alt="Logo Carta Editorial"></li>
+            </ul>
+          </div>
+
+          <div class="education">
+            <h2> Educação </h2>
+            <p>Formado em Pubicidade e Propaganda pela Faculdade de Comunicação Social Cásper Líbero</p>
+          </div>
+
+          <div class="skills">
+            <h2> Competências </h2>
+            <p> <u>Editorial:</u> Photoshop, InDesign, Illustrator, Digital Publishing Suite.</p>
+            <p> <u>Web:</u> HTML5, CSS3, MySQL, Javascript, Ajax, NodeJs, Ruby on Rails.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <%- include("shared/footer") %>
+  </body>
 </html>
+

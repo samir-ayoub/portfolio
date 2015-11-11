@@ -141,6 +141,14 @@ footer p {
 	position:relative;
 }
 
+.image_background2 {
+	background: url("/images/abres/abrezao.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:52em;
+	 width: 100%;
+}
+
 .image_background1 {
 	background: url("/images/abres/abres2.jpg")
 	 no-repeat center center;
@@ -190,9 +198,8 @@ footer p {
 }
 
 #logo {
-	width:2.5em;
+	width:2em;
 	height:100%;
 	margin-right: 1em;
 }
-
 
