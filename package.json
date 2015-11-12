@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.0.0",
+  "name": "samirayoub",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,5 +13,21 @@
     "ejs": "*",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "Ele tá aprendendo programação e é um cara legalzão",
+  "main": "samirayoub",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samir-ayoub/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "samir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samir-ayoub/portfolio/issues"
+  },
+  "homepage": "https://github.com/samir-ayoub/portfolio#readme"
 }
