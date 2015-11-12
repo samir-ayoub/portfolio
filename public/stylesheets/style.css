@@ -1,3 +1,4 @@
+
 .menu {
 	line-height: 75px;
 	background-color: #fff;
@@ -117,14 +118,18 @@ a {
     transition: all 0.5s ease;
 }
 
-footer {
+footer, footer a{
 	margin-top: 12em;
 	background-color: #000000;
 	color: #fff;
 	padding: 100px 0;
 }
 
-footer p {
+footer a:hover {
+	color: #fff;
+}
+
+footer p, footer a {
 	margin-bottom: 0px;
 }
 
@@ -141,12 +146,30 @@ footer p {
 	position:relative;
 }
 
-.image_background2 {
+.main_back {
 	background: url("/images/abres/abrezao.jpg")
 	 no-repeat center center;
 	 background-size: cover;
 	 height:52em;
 	 width: 100%;
+}
+
+.image_background3 {
+	background: url("/images/abres/cea.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:35em;
+	 width: 100%;
+	 margin: 0 0 4em 0;
+}
+
+.image_background2 {
+	background: url("/images/abres/negocios.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:35em;
+	 width: 100%;
+	 margin: 0 0 4em 0;
 }
 
 .image_background1 {
@@ -202,4 +225,3 @@ footer p {
 	height:100%;
 	margin-right: 1em;
 }
-
