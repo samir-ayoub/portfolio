@@ -10,6 +10,8 @@ header {
 	z-index: 2;
 	height: 75px;
 	width: 100%;
+	z-index: 999999;
+	
 }
 
 .links_header {
@@ -162,7 +164,7 @@ footer p, footer a {
 }
 
 .main_back {
-	background: url("/images/abres/abrezao.jpg")
+	background: url("/images/abres/abrezao.png")
 	 no-repeat center center;
 	 background-size: cover;
 	 height:52em;
